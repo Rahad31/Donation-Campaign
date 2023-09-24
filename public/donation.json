@@ -1,0 +1,123 @@
+[
+  {
+    "Picture": "https://i.ibb.co/zrjTHvf/Health.png",
+    "Title": "Medical Aid for Vulnerable Communities",
+    "Category": "Health",
+    "Category_bg": "#0052ff33",
+    "Card_bg": "#0052ff26",
+    "Text_and_button_bg": "#0052FF",
+    "Description": "Support access to healthcare for vulnerable communities. Your contribution can save lives and improve overall well-being.",
+    "Price": "$100"
+  },
+  {
+    "Picture": "https://i.ibb.co/wpxx1Jr/istockphoto-1124599074-2048x2048.jpg",
+    "Title": "Mental Health Awareness",
+    "Category": "Health",
+    "Category_bg": "#0052ff33",
+    "Card_bg": "#0052ff26",
+    "Text_and_button_bg": "#0052FF",
+    "Description": "Promote mental health awareness and support initiatives that reduce stigma. Your donation can make a difference in mental health care.",
+    "Price": "$15"
+  },
+  {
+    "Picture": "https://i.ibb.co/pnHzRsn/istockphoto-1315395944-2048x2048.jpg",
+    "Title": "Elderly Care Services",
+    "Category": "Health",
+    "Category_bg": "#0052ff33",
+    "Card_bg": "#0052ff26",
+    "Text_and_button_bg": "#0052FF",
+    "Description": "Support programs and services that enhance the quality of life for elderly individuals. Your donation can bring comfort and companionship.",
+    "Price": "$25"
+  },
+
+  {
+    "Picture": "https://i.ibb.co/587XNn1/istockphoto-695147934-2048x2048.jpg",
+    "Title": "Education for Underprivileged Children",
+    "Category": "Education",
+    "Category_bg": "#ff444a33",
+    "Card_bg": "#ff444a26",
+    "Text_and_button_bg": "#FF444A",
+    "Description": "Support the education of underprivileged children by contributing to this campaign. Every child deserves a chance at a brighter future.",
+    "Price": "$25"
+  },
+  {
+    "Picture": "https://i.ibb.co/rp5VS6V/istockphoto-1175351311-2048x2048.jpg",
+    "Title": "Art and Culture Preservation",
+    "Category": "Education",
+    "Category_bg": "#ff444a33",
+    "Card_bg": "#ff444a26",
+    "Text_and_button_bg": "#FF444A",
+    "Description": "Support the preservation of art and cultural heritage for future generations. Your contribution can enrich communities.",
+    "Price": "$35"
+  },
+  {
+    "Picture": "https://i.ibb.co/54vXJWH/Education.png",
+    "Title": "Community Development",
+    "Category": "Education",
+    "Category_bg": "#ff444a33",
+    "Card_bg": "#ff444a26",
+    "Text_and_button_bg": "#FF444A",
+    "Description": "Contribute to the development of underserved communities through infrastructure and social programs. Your support can empower lives.",
+    "Price": "$60"
+  },
+  {
+    "Picture": "https://i.ibb.co/gjcw4DX/Clothing.png",
+    "Title": "Warm Clothing Drive",
+    "Category": "Clothing",
+    "Category_bg": "#79c23f33",
+    "Card_bg": "#79c23f26",
+    "Text_and_button_bg": " #79C23F",
+    "Description": "Provide warm clothing to those in need during the cold winter months. Your donation can keep people warm and comfortable.",
+    "Price": "$20"
+  },
+  {
+    "Picture": "https://i.ibb.co/Qv5XLSb/istockphoto-1283154274-2048x2048.jpg",
+    "Title": "Dress for Success",
+    "Category": "Clothing",
+    "Category_bg": "#79c23f33",
+    "Card_bg": "#79c23f26",
+    "Text_and_button_bg": " #79C23F",
+    "Description": "Support programs that provide professional attire to individuals seeking employment. Help them dress for success.",
+    "Price": "$30"
+  },
+  {
+    "Picture": "https://i.ibb.co/3YFv5dz/istockphoto-1212415924-2048x2048.jpg",
+    "Title": "Children's Clothing Drive",
+    "Category": "Clothing",
+    "Category_bg": "#79c23f33",
+    "Card_bg": "#79c23f26",
+    "Text_and_button_bg": " #79C23F",
+    "Description": "Donate clothing for children in need. Your contribution can ensure that children have proper clothing for all seasons.",
+    "Price": "$15"
+  },
+  {
+    "Picture": "https://i.ibb.co/BZv4xcf/istockphoto-472165353-2048x2048.jpg",
+    "Title": "Food Drive for the Homeless",
+    "Category": "Food",
+    "Category_bg": "#f8714733",
+    "Card_bg": "#f8714726",
+    "Text_and_button_bg": " #F87147",
+    "Description": "Join us in our mission to provide nutritious meals to homeless individuals and families. Your donation can help end hunger.",
+    "Price": "$20"
+  },
+  {
+    "Picture": "https://i.ibb.co/g9xZd5R/istockphoto-1218623873-2048x2048.jpg",
+    "Title": "Support a Local Food Bank",
+    "Category": "Food",
+    "Category_bg": "#f8714733",
+    "Card_bg": "#f8714726",
+    "Text_and_button_bg": " #F87147",
+    "Description": "Donate to your local food bank to help provide food assistance to families facing food insecurity in your community.",
+    "Price": "$10"
+  },
+  {
+    "Picture": "https://i.ibb.co/CV293pt/Food.png",
+    "Title": "Nutrition Program for Children",
+    "Category": "Food",
+    "Category_bg": "#f8714733",
+    "Card_bg": "#f8714726",
+    "Text_and_button_bg": " #F87147",
+    "Description": "Support nutrition programs that provide healthy meals to children in need. Your donation can nourish young minds and bodies.",
+    "Price": "$15"
+  }
+]
