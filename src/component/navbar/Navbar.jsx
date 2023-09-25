@@ -14,7 +14,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">
+            <NavLink to="/donation">
               <a className="hover:text-[#FF444A] hover:underline">Donation</a>
             </NavLink>
           </li>
