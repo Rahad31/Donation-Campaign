@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./component/root/root";
 import Carddetails from "./component/Card_Details/Carddetails";
 import Donation_done from "./component/Donation_done/Donation_done";
+import Piechart from "./component/piechart/Piechart";
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,12 @@ const router = createBrowserRouter([
       {
         path: "/Donation",
         loader: () => fetch("../donation.json"),
-        element:<Donation_done></Donation_done>,
+        element: <Donation_done></Donation_done>,
+      },
+      {
+        path: "/statistics",
+
+        element: <Piechart></Piechart>,
       },
     ],
   },

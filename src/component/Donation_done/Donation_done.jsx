@@ -24,15 +24,13 @@ const Donation_done = () => {
   }, [cards]);
 
   return (
-    <div className="container mx-auto my-10 flex flex-row flex-wrap gap-5 justify-center items-center">
-      
-        {displaydonation.map((donation) => (
-          <DonationCard
-            key={donation.Donation_id}
-            donation={donation}
-          ></DonationCard>
-        ))}
-      
+    <div className="container mx-auto flex flex-row flex-wrap gap-5 justify-center items-center">
+      {displaydonation.map((donation) => (
+        <DonationCard
+          key={donation.Donation_id}
+          donation={donation}
+        ></DonationCard>
+      ))}
     </div>
   );
 };

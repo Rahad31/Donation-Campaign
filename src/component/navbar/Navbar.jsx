@@ -19,7 +19,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/">
+            <NavLink to="/statistics">
               <a className="hover:text-[#FF444A] hover:underline">Statistics</a>
             </NavLink>
           </li>
