@@ -14,7 +14,7 @@ const Carddetails = () => {
   console.log(carddetail);
   const handleDonation = () => {
     saveDonation(idInt);
-    
+    toast("Successfully Donated !");
   };
   const buttonbgColor = {
     backgroundColor: carddetail.Text_and_button_bg,
