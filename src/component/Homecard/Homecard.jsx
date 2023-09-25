@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 const Homecard = ({ card }) => {
   const {
+    Donation_id,
     Picture,
     Title,
     Category,
@@ -19,23 +21,25 @@ const Homecard = ({ card }) => {
     backgroundColor: Category_bg,
   };
   return (
-    <div
-      style={cardbgColor}
-      className="h-[283px] w-[312px]  flex flex-col rounded-md  bg-[{Card_bg}]"
-    >
-      <img className="w-[312px] h-[193px] rounded-t-md" src={Picture}></img>
+    <Link to={`/Homecard/${Donation_id}`}>
       <div
-        style={categoryColor}
-        className="p-2 h-[25px] w-min flex justify-left items-center mx-2 my-3 rounded "
+        style={cardbgColor}
+        className="h-[283px] w-[312px]  flex flex-col rounded-md  bg-[{Card_bg}]"
       >
-        <div style={textColor} className="">
-          {Category}
+        <img className="w-[312px] h-[193px] rounded-t-md" src={Picture}></img>
+        <div
+          style={categoryColor}
+          className="p-2 h-[25px] w-min flex justify-left items-center mx-2 my-3 rounded "
+        >
+          <div style={textColor} className="">
+            {Category}
+          </div>
         </div>
+        <p style={textColor} className="pl-2">
+          {Title}
+        </p>
       </div>
-      <p style={textColor} className="pl-2">
-        {Title}
-      </p>
-    </div>
+    </Link>
   );
 };
 
