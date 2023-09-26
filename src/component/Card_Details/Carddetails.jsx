@@ -14,7 +14,23 @@ const Carddetails = () => {
   console.log(carddetail);
   const handleDonation = () => {
     saveDonation(idInt);
-    toast("Successfully Donated !");
+    // toast("Successfully Donated !");
+
+    const donationItems = JSON.parse(localStorage.getItem("Donation-list"));
+      console.log(donationItems);
+    if (!donationItems) {
+      toast("Thank you,Your Donation completed");
+    } else {
+      const isExist = donationItems.find(
+        (item) => item.Donation_id == Donation_id
+      );
+      
+      if (!isExist) {
+        toast("Thank you!Your Donation completed");
+      } else {
+        toast("Error", "Already Donated", "error");
+      }
+    }
   };
   const buttonbgColor = {
     backgroundColor: carddetail.Text_and_button_bg,

@@ -7,11 +7,13 @@ import Root from "./component/root/root";
 import Carddetails from "./component/Card_Details/Carddetails";
 import Donation_done from "./component/Donation_done/Donation_done";
 import Piechart from "./component/piechart/Piechart";
-
+import ErrorPage from "./component/ErrorPage/ErrorPage";
 const router = createBrowserRouter([
   {
     path: "/",
+
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

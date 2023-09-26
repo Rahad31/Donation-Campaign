@@ -1,21 +1,29 @@
 import React from "react";
-
+import { useState, useEffect } from "react";
 import Chart from "react-apexcharts";
 
 const Piechart = () => {
   const Length = localStorage.getItem("Donation-list");
   const int = JSON.parse(Length);
-  const long = int.length;
-  console.log(long);
+  const donated = int.length;
+  console.log(donated);
 
+  const [cards, setcards] = useState([]);
+  useEffect(() => {
+    fetch("../donation.json")
+      .then((res) => res.json())
+      .then((data) => setcards(data));
+  }, []);
+  const Total = cards.length;
+  console.log(Total);
   return (
-    <div>
+    <div className="w-">
       <div className="container-fluid mb-3 flex justify-center items-center mt-40">
         <Chart
           type="pie"
-          width={500}
+          width={400}
           height={500}
-          series={[long, 12]}
+          series={[donated, Total]}
           options={{
             title: { text: "" },
             noData: { text: "Empty Data" },

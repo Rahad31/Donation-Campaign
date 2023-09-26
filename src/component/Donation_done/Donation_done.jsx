@@ -7,7 +7,7 @@ const Donation_done = () => {
 
   const [donation, setDonation] = useState([]);
   const [displaydonation, setDisplaydonation] = useState([]);
-
+  const [dataLength, setDataLength] = useState(4);
   useEffect(() => {
     const storedDonation = getStoredDonation();
     if (cards.length > 0) {
@@ -25,12 +25,20 @@ const Donation_done = () => {
 
   return (
     <div className="container mx-auto flex flex-row flex-wrap gap-5 justify-center items-center">
-      {displaydonation.map((donation) => (
+      {displaydonation.slice(0, dataLength).map((donation) => (
         <DonationCard
           key={donation.Donation_id}
           donation={donation}
         ></DonationCard>
       ))}
+      <div className={dataLength === displaydonation.length ? "hidden" : ""}>
+        <button
+          onClick={() => setDataLength(displaydonation.length)}
+          className="btn btn-error"
+        >
+          Show All
+        </button>
+      </div>
     </div>
   );
 };
