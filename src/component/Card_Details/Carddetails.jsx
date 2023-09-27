@@ -11,26 +11,32 @@ const Carddetails = () => {
   const carddetail = Homecard.find(
     (carddetail) => carddetail.Donation_id === idInt
   );
-  console.log(carddetail);
+  // console.log(carddetail);
+
   const handleDonation = () => {
     saveDonation(idInt);
-    // toast("Successfully Donated !");
+    toast("Successfully Donated !");
 
-    const donationItems = JSON.parse(localStorage.getItem("Donation-list"));
-      console.log(donationItems);
-    if (!donationItems) {
-      toast("Thank you,Your Donation completed");
-    } else {
-      const isExist = donationItems.find(
-        (item) => item.Donation_id == Donation_id
-      );
-      
-      if (!isExist) {
-        toast("Thank you!Your Donation completed");
-      } else {
-        toast("Error", "Already Donated", "error");
-      }
-    }
+    // const donationItems = JSON.parse(localStorage.getItem("Donation-list"));
+
+    // // const isExist = donationItems.find(
+    // //   (item) => item == carddetail.Donation_id
+    // // );
+    // for (const match of donationItems) {
+    //   if (match == carddetail.Donation_id) {
+    //     toast("all !");
+    //   } else if (match != idInt) {
+    //     toast("D");
+    //   }
+    // }
+    // console.log(donationItems);
+    // // console.log(isExist);
+    // console.log(idInt);
+    // // if (isExist==idInt) {
+    // //   toast("Successfully Donated");
+    // // } else {
+    // //   toast("Already Donated");
+    // // }
   };
   const buttonbgColor = {
     backgroundColor: carddetail.Text_and_button_bg,

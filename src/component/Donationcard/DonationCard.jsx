@@ -27,10 +27,10 @@ const DonationCard = ({ donation }) => {
   return (
     <div
       style={cardbgColor}
-      className="flex flex-row  md:mx-4 w-auto md:w-[758px] lg:mx-0 lg:w-[758px] h-[200px] gap-3 rounded-md"
+      className="flex flex-row gap-3 rounded-md md:mx-4 w-[380px] md:w-[758px] lg:mx-0 lg:w-[758px] h-[200px] "
     >
       <img className="w-[220px] h-auto rounded-l-md" src={Picture}></img>
-      <div className="flex flex-col gap-3 mt-5">
+      <div className="flex flex-col gap-1 mt-2 md:gap-3 md:mt-5">
         <div
           style={categoryColor}
           className="p-2 h-[25px] w-min flex justify-left items-center   rounded "

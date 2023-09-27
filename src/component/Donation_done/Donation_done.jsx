@@ -31,7 +31,7 @@ const Donation_done = () => {
           donation={donation}
         ></DonationCard>
       ))}
-      <div className={dataLength === displaydonation.length ? "hidden" : ""}>
+      <div className={dataLength >= displaydonation.length ? "hidden" : ""}>
         <button
           onClick={() => setDataLength(displaydonation.length)}
           className="btn btn-error"

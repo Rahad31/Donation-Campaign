@@ -2,10 +2,7 @@
 import Banner from "../banner/banner";
 
 const Home = () => {
-  // const getfilter=(data)=> {
-    
-  //   return data;
-  // }
+  
 
   return (
     <div>

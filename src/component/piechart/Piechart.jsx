@@ -5,8 +5,13 @@ import Chart from "react-apexcharts";
 const Piechart = () => {
   const Length = localStorage.getItem("Donation-list");
   const int = JSON.parse(Length);
-  const donated = int.length;
-  console.log(donated);
+  let donated;
+  if (!int) {
+    donated = 0;
+  } else {
+    donated = int.length;
+    console.log(donated);
+  }
 
   const [cards, setcards] = useState([]);
   useEffect(() => {
@@ -15,7 +20,11 @@ const Piechart = () => {
       .then((data) => setcards(data));
   }, []);
   const Total = cards.length;
-  console.log(Total);
+  const total = Total - donated;
+  // let donate = 0;
+  // if (donated > 0) {
+  //   donate = donated;
+  // }
   return (
     <div className="w-">
       <div className="container-fluid mb-3 flex justify-center items-center mt-40">

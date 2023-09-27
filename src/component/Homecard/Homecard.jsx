@@ -24,9 +24,9 @@ const Homecard = ({ card }) => {
     <Link to={`/Homecard/${Donation_id}`}>
       <div
         style={cardbgColor}
-        className="h-[283px] w-[312px]  flex flex-col rounded-md  bg-[{Card_bg}]"
+        className="h-[283px] w-[360px]  flex flex-col rounded-md  bg-[{Card_bg}]"
       >
-        <img className="w-[312px] h-[193px] rounded-t-md" src={Picture}></img>
+        <img className="w-[360px] h-[193px] rounded-t-md" src={Picture}></img>
         <div
           style={categoryColor}
           className="p-2 h-[25px] w-min flex justify-left items-center mx-2 my-3 rounded "
